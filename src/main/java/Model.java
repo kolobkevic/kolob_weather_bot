@@ -1,9 +1,9 @@
 public class Model {
     private String name;
-    private String icon;
+    private int id;
     private String main;
-    private double temperature;
-    private double humidity;
+    private int temperature;
+    private int humidity;
 
     public String getName() {
         return name;
@@ -13,12 +13,12 @@ public class Model {
         this.name = name;
     }
 
-    public String getIcon() {
-        return icon;
+    public int getId() {
+        return id;
     }
 
-    public void setIcon(String icon) {
-        this.icon = icon;
+    public void setWeatherID(int icon) {
+        this.id = icon;
     }
 
     public String getMain() {
@@ -29,19 +29,19 @@ public class Model {
         this.main = main;
     }
 
-    public double getTemperature() {
+    public int getTemperature() {
         return temperature;
     }
 
-    public void setTemperature(double temperature) {
+    public void setTemperature(int temperature) {
         this.temperature = temperature;
     }
 
-    public double getHumidity() {
+    public int getHumidity() {
         return humidity;
     }
 
-    public void setHumidity(double humidity) {
+    public void setHumidity(int humidity) {
         this.humidity = humidity;
     }
 }
